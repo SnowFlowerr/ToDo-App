@@ -21,6 +21,9 @@ body{
     padding-left: 6px;
     background-color: lightblue;
 }
+.additem:focus{
+    background-color: aqua;
+}
 .inpSec{
     display: flex;
     justify-content: space-around;
