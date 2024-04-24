@@ -92,7 +92,8 @@ body{
 .delete button{
     border: 2px solid rgb(0, 0, 0);
 }
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:1000px) {
     .bigbox{
         width: 94vw;
         height: 96dvh;
