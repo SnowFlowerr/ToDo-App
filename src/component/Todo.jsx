@@ -52,9 +52,10 @@ export default function Todo() {
                 <button onClick={handleClear}>Clear All</button>
             </form>
             <div className={styles.list}>
-                {list.map((ele, ind) => <div key={ind} className={styles.data}>
+                {list.map((ele, ind) =>
+                <div key={ind} className={styles.data}>
                     <div className={styles.note}>
-                        {ele.text}
+                        {ele.check===""?ele.text:<del>{ele.text}</del>}
                     </div>
                     <div>
                         {/* To check the current index checkbox */}
